@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="framework.BaseTest" duration-ms="79" started-at="2020-03-09T16:54:41 ART" finished-at="2020-03-09T16:54:41 ART">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="79" started-at="2020-03-09T16:54:41 ART" finished-at="2020-03-09T16:54:41 ART">
+      <class name="framework.BaseTest">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:framework.BaseTest@3c0ecd4b]" name="BeforeSuite" is-config="true" duration-ms="9035" started-at="2020-03-09T16:54:32 ART" finished-at="2020-03-09T16:54:41 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+      </class> <!-- framework.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- framework.BaseTest -->
+</testng-results>

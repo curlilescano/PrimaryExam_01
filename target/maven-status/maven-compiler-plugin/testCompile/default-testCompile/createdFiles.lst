@@ -1,0 +1,11 @@
+pages\BellezaPage.class
+framework\BaseTest.class
+pages\ProductDetailsPage.class
+pages\CategoriasAllPage.class
+pages\FilteredPage.class
+pages\HomePage.class
+tests\APITests.class
+config\PropertiesFile.class
+config\Configuration.class
+framework\BasePage.class
+tests\UITests.class
