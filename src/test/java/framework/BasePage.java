@@ -16,10 +16,10 @@ public class BasePage {
         wait = new WebDriverWait(driver, 15);
     }
 
-//    //Wait Wrapper Method
-//    public void waitVisibility(By elementBy) {
-//        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
-//    }
+    //Wait Wrapper Method
+    public void waitVisibility(By elementBy) {
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
+    }
 //
 //    //Click Method
 //    public void click (By elementBy) {

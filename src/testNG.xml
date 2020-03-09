@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI and API tests">
+
+    <test name="Check specific filtered pages, and compare product details">
+        <classes>
+            <class name="tests.UITests" />
+            <class name="tests.APITests" />
+        </classes>
+    </test>
+
+</suite>

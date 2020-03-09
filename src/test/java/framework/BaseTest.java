@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 import java.io.IOException;
 
@@ -14,14 +15,14 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeClass
+    @BeforeSuite
     public void BeforeSuite() throws IOException {
         String browserName = PropertiesFile.getProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")) {
 
-//            WebDriverManager.chromedriver().setup();
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\curli\\Downloads\\Automation\\Drivers\\chromedriver_1.exe");
+            WebDriverManager.chromedriver().setup();
+//           System.setProperty("webdriver.chrome.driver", "C:\\Users\\curli\\Downloads\\Automation\\Drivers\\chromedriver_1.exe");
             driver = new ChromeDriver();
 
         } else if (browserName.equalsIgnoreCase("firefox")) {
