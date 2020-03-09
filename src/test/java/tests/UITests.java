@@ -13,7 +13,7 @@ import pages.FilteredPage;
 import pages.HomePage;
 import pages.ProductDetailsPage;
 
-public class UITests extends BaseTest {
+public class UItest extends BaseTest {
     HomePage objHomePage;
     BasePage objBasePage;
     FilteredPage objFilteredPage;
